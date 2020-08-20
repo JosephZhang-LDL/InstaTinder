@@ -2,6 +2,10 @@ from selenium import webdriver
 from time import sleep
 from credentials import username, password
 
+'''
+Ignore this for now; testing the instagram bot processes below first so that I can determine it works and brings me to the right page before
+I move everything to the class
+'''
 class Instabot:
     def __init_(self, username, password):
         self.driver = webdriver.Firefox()
@@ -10,6 +14,7 @@ class Instabot:
 
 
 driver = webdriver.Firefox()
+driver.set_window_size(1000, 900)
 sleep(2)
 driver.get("https://www.instagram.com/?hl=en")
 sleep(2)
@@ -24,3 +29,6 @@ sleep(3)
 driver.find_element_by_xpath("/html/body/div[1]/section/main/div/div/div/div/button").click()
 sleep(2)
 driver.find_element_by_xpath("/html/body/div[4]/div/div/div/div[3]/button[2]").click()
+sleep(3)
+driver.find_element_by_xpath("//a[@href='/explore/']").click()
+sleep(4)

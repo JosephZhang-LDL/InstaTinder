@@ -81,3 +81,32 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1597953775728	Marionette	INFO	Listening on port 54933
 1597953775742	Marionette	WARN	TLS certificate errors will be ignored for this session
 1597953841454	Marionette	INFO	Stopped listening on port 54933
+1597954345405	geckodriver	INFO	Listening on 127.0.0.1:55056
+1597954346423	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3h/db9djnp979731j81hjlw3x180000gp/T/rust_mozprofileVMQcYm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597954348597	Marionette	INFO	Listening on port 55063
+1597954348690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597955610811	geckodriver	INFO	Listening on 127.0.0.1:55376
+1597955611834	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3h/db9djnp979731j81hjlw3x180000gp/T/rust_mozprofileHF6qbb"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597955614395	Marionette	INFO	Listening on port 55384
+1597955614492	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1597955751105	Marionette	INFO	Stopped listening on port 55384
