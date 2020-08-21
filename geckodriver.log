@@ -110,3 +110,4 @@ getMutations@resource://devtools/client/fronts/walker.js:409:10
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1597955751105	Marionette	INFO	Stopped listening on port 55384
+1597963981714	Marionette	INFO	Stopped listening on port 55063
